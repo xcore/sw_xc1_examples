@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<xpd>
+    <description>Code examples for the XC-1 development board.</description>
+    <doc>http://www.xmos.com/published/xc1-examples</doc>
+    <icon>icon/xc1.png</icon>
+    <location>git://github.com/xcore/sw_xc1_examples</location>
+    <maintainer>davelxmos</maintainer>
+    <name>ap_xc1_examples</name>
+    <scope>example</scope>
+    <vendor>XMOS</vendor>
+    <xpd_version>1.0</xpd_version>
+    <template name = "LED Example">
+        <board>XC-1</board>
+        <description>A project that illuminate a LED.</description>
+        <src file = "src/main.xc">ap_xc1_examples/app_xc1_led</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name = "Red LED Example">
+        <board>XC-1</board>
+        <description>A Red LED illumination project.</description>
+        <src file = "src/main.xc">ap_xc1_examples/app_xc1_red_led</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name = "Flashing LED Example">
+        <board>XC-1</board>
+        <description>Flashing LEDs project.</description>
+        <src file = "src/main.xc">ap_xc1_examples/app_xc1_flashing_led</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name = "Cycle LED Example">
+        <board>XC-1</board>
+        <description>Flash and cycle LEDs at different rates.</description>
+        <src file = "src/main.xc">ap_xc1_examples/app_xc1_cycle_led</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name = "Buttons Example">
+        <board>XC-1</board>
+        <description>Flash and cycle LEDs at different rates and respond to buttons.</description>
+        <src file = "src/main.xc">ap_xc1_examples/app_xc1_buttons</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name = "Uart Project Example">
+        <board>XC-1</board>
+        <description>A simple UART example.</description>
+        <src file = "src/main.xc">ap_xc1_examples/app_xc1_uart</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name = "Prototype Example">
+        <board>XC-1</board>
+        <description>Prototype code</description>
+        <src file = "src/main.xc">ap_xc1_examples/app_xc1_prototype</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name = "Multicore Hello World Example">
+        <board>XC-1</board>
+        <description>Multicore Hello World in XC using channels</description>
+        <src file = "src/main.xc">ap_xc1_examples/app_xc1_multicore_hello_world</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+    <template name = "UART Loopback Example">
+        <board>XC-1</board>
+        <description>UART loopback example</description>
+        <src file = "src/main.xc">ap_xc1_examples/app_xc1_uart_loopback</src>
+        <!-- Empty dependency list since app stands alone -->
+        <dependencies></dependencies>
+    </template>
+</xpd>
