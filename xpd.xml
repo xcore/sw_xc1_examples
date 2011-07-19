@@ -47,7 +47,7 @@
     </template>
     <template name = "Uart Project Example">
         <board>XC-1</board>
-        <description>A simple UART example.</description>
+        <description>A simple Uart example.</description>
         <src file = "src/main.xc">sw_xc1_examples/app_xc1_uart</src>
         <!-- Empty dependency list since app stands alone -->
         <dependencies></dependencies>
