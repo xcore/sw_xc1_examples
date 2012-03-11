@@ -9,11 +9,14 @@
     <location>git://github.com/xcore/sw_xc1_examples</location>
     <name>sw_xc1_examples</name>
     <maintainer>davelxmos</maintainer>
+    <partnumber>XM-001644-DH</partnumber>
     <release parenthash = "322d7afcd439986fa8dcc9c98e72f5d560ce9aec" version = "1.0.0beta0" githash = "586156260be5e799617a3aa34a04e43f21cbf17b"></release>
     <release parenthash = "9ca27c7d958e541b34db86c0f5c6831921ac2701" version = "1.0.0beta1" githash = "084dc498565bb4f0bdc178583f9534a4bec10fdb"></release>
     <release parenthash = "084dc498565bb4f0bdc178583f9534a4bec10fdb" version = "1.0.0beta2" githash = "47bab0609a0ac99ae47726e85356a0087d5f11d6"></release>
     <release parenthash = "9b4dc23a56980f25a7f8a727a2c34c4c2d79a48f" version = "1.0.0rc0" githash = "7c75ce587f0b99624fac35fbcbfd82a61445db28"></release>
+    <release parenthash = "15e4a43e2e2c16399896c1c959dc760745c56836" version = "1.0.0rc1"></release>
     <scope>example</scope>
+    <subpartnumber>XM-000752-SM</subpartnumber>
     <vendor>XMOS</vendor>
     <xpd_version>1.0</xpd_version>
     <template name = "LED Example">
